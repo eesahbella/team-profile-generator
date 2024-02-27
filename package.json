@@ -7,12 +7,16 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.15",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
     "jest": "^29.7.0"
   }
 }
